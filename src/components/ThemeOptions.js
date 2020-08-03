@@ -26,7 +26,7 @@ function ThemeOptions() {
   return (
     <div className={`App ${colorTheme}`}>
       <div className="theme-options">
-        <h6>Select your theme:</h6>
+        <h6>Choose your favorite color&#128522;</h6>
         <div
           id="theme-white"
           onClick={() => handleClick("theme-white")}
