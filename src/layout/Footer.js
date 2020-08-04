@@ -5,7 +5,7 @@ import foot from "./img/foot.jpg";
 
 export default function Footer() {
   return (
-    <Fade bottom>
+    <Fade>
       <footer className="border-top p-3 foot">
         <div className="container">
           <div className="row justify-content-between">

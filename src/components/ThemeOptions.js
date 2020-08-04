@@ -67,8 +67,6 @@ function ThemeOptions() {
       </div>
       <Fade top delay={600}>
         <h3 className="text-center">Wall Magazine</h3>
-      </Fade>
-      <Fade top delay={700}>
         <h5 className="text-center">These are some of my projects</h5>
       </Fade>
       <Page />
