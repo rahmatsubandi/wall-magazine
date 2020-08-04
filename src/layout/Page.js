@@ -26,12 +26,12 @@ export default class Page extends Component {
                 />
                 <h6 className="mt-3">Description:</h6>
                 <p className="text-justify">
-                  Lazadi was made in 2020. The naming of Lazadi was taken as a
-                  parody of the biggest e-commerce in Indonesia which is none
-                  other than Lazada. Lazadi was built with the case studies that
-                  I got during the selection of case studies in the 'Web
-                  Programming 2' lesson on campus. And until now I continue to
-                  develop in terms of end-end and back-end.
+                  Lazadi was made in 2020. The naming of Lazadi was taken as the
+                  biggest e-commerce parody in Indonesia that doesn't exist
+                  besides Lazada. Lazadi was built with this case study I gained
+                  during the selection of case studies on the 'Web Program
+                  lesson 2 'on campus. And until now I continue to develop it in
+                  terms of frond-end and back-end.
                 </p>
                 <div className="justify-content-between">
                   <a
