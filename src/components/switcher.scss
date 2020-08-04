@@ -8,6 +8,7 @@
   text-align: center;
   padding: 20px 0;
   margin-top: -15px;
+
   div {
     cursor: pointer;
     width: 20px;
@@ -17,29 +18,37 @@
     border: 1px solid rgb(250, 250, 250);
     display: inline-block;
     opacity: 0.5;
+
     &.active {
       opacity: 1;
-      box-shadow: 5px 5px 25px #292828d8;
+      box-shadow: -5px -5px 10px rgba(240, 240, 240, 0.5), 5px 5px 10px rgba(0, 0, 0, 0.2), inset 5px 5px 10px rgba(0, 0, 0, 0);
     }
+
     &:hover {
-      box-shadow: 5px 5px 30px #292828;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4), inset 5px 5px 10px rgba(0, 0, 0, 0);
     }
   }
+
   #theme-white {
     background-color: #eee;
   }
+
   #theme-blue {
     background-color: #1e41c1;
   }
+
   #theme-orange {
     background-color: #b64b1e;
   }
+
   #theme-purple {
     background-color: #7852ae;
   }
+
   #theme-green {
     background-color: #5faf3b;
   }
+
   #theme-black {
     background-color: #000;
   }
@@ -53,6 +62,7 @@
 
 .App.theme-white {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #222;
@@ -61,89 +71,123 @@
 
 .App.theme-blue {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #1e41c1;
   }
+
   background-color: #bec7e7;
+
   .content-box {
     background-color: #d8def4;
+
     h3,
     h5 {
       color: #1e41c1;
     }
+
     p {
       color: #000;
     }
   }
 }
+
 .App.theme-orange {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #b64b1e;
   }
+
   background-color: #f4c9b7;
+
   .content-box {
     background-color: #f4dfd6;
+
     h3,
     h5 {
       color: #b64b1e;
     }
+
     p {
       color: #000;
     }
   }
 }
+
 .App.theme-purple {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #7852ae;
   }
+
   background-color: #d0b7f4;
+
   .content-box {
     background-color: #ecdfff;
+
     h3,
     h5 {
       color: #7852ae;
     }
+
     p {
       color: #000;
     }
   }
 }
+
 .App.theme-green {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #5faf3b;
   }
+
   background-color: #c3e3c1;
+
   .content-box {
     background-color: #e2f6e1;
+
     h3,
     h5 {
       color: #5faf3b;
     }
+
     p {
       color: #000;
     }
   }
 }
+
 .App.theme-black {
   transition: background-color 0.35s ease-out;
+
   h6 {
     font-size: 20px;
     color: #ffffff;
   }
+
+  h3,
+  h5 {
+    color: #ffffff;
+  }
+
   background-color: #5c5c5c;
+
   .content-box {
     background-color: #333;
+
     h3,
     h5 {
       color: #ffffff;
     }
+
     p {
       color: #ccc;
     }

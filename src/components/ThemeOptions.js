@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Page from "../layout/Page";
+import Footer from "../layout/Footer";
 
 import "./switcher.scss";
 
@@ -20,13 +21,14 @@ function ThemeOptions() {
   // set theme
   const handleClick = (theme) => {
     setColorTheme(theme);
-    localStorage.setItem("theme-color", theme);
+    // save theme in localStorage/ data in crome
+    // localStorage.setItem("theme-color", theme);
   };
 
   return (
     <div className={`App ${colorTheme}`}>
       <div className="theme-options">
-        <h6>Choose your favorite color&#128522;</h6>
+        <h6>Choose your favorite color:</h6>
         <div
           id="theme-white"
           onClick={() => handleClick("theme-white")}
@@ -58,7 +60,10 @@ function ThemeOptions() {
           className={`${colorTheme === "theme-black" ? "active" : ""}`}
         />
       </div>
+      <h3 className="text-center">Wall Magazine</h3>
+      <h5 className="text-center">These are some of my projects</h5>
       <Page />
+      <Footer />
     </div>
   );
 }
