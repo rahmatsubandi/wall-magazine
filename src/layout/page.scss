@@ -24,8 +24,9 @@ body {
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.233);
   margin-bottom: 20px;
   margin-top: 15px;
-  min-height: 800px;
-  max-height: 800px;
+  min-height: 830px;
+  max-height: 830px;
+  border: none;
 
   h3 {
     line-height: 1.2;
@@ -37,6 +38,10 @@ body {
     line-height: 1.5;
     margin: 0 0 22px 0;
     font-size: 20px;
+
+    sup {
+      font-size: 13px;
+    }
   }
 
   img {
@@ -57,4 +62,8 @@ body {
   .logofoot {
     width: 5rem;
   }
+}
+
+.btn {
+  transition: all 0.4s linear;
 }

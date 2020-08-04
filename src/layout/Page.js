@@ -13,9 +13,11 @@ export default class Page extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="content-box ">
+              <div className="content-box card">
                 <h3>Lazadi</h3>
-                <h5>Language used: PHP</h5>
+                <h5>
+                  Language used: PHP <sup>(Framework: CodeIgniter 3)</sup>
+                </h5>
                 <hr class="border-bottom" />
                 <img
                   src={lazadi}
@@ -23,7 +25,7 @@ export default class Page extends Component {
                   className="img-fluid img-responsive img"
                 />
                 <h6 className="mt-3">Description:</h6>
-                <p>
+                <p className="text-justify">
                   Lazadi was made in 2020. The naming of Lazadi was taken as a
                   parody of the biggest e-commerce in Indonesia which is none
                   other than Lazada. Lazadi was built with the case studies that
@@ -31,18 +33,20 @@ export default class Page extends Component {
                   Programming 2' lesson on campus. And until now I continue to
                   develop in terms of end-end and back-end.
                 </p>
-                <a
-                  href="https://lazadi.000webhostapp.com/"
-                  target="_blank"
-                  className="btn btn-outline-primary btn-sm"
-                  rel="noopener noreferrer"
-                >
-                  Headed to Lazadi
-                </a>
+                <div className="justify-content-between">
+                  <a
+                    href="https://lazadi.000webhostapp.com/"
+                    target="_blank"
+                    className="btn btn-outline-primary btn-sm"
+                    rel="noopener noreferrer"
+                  >
+                    Headed to Lazadi
+                  </a>
+                </div>
               </div>
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
-              <div className="content-box ">
+              <div className="content-box card">
                 <h3>On Progress</h3>
                 <h5>Language used: -</h5>
                 <hr class="border-bottom" />
@@ -52,7 +56,7 @@ export default class Page extends Component {
                   className="img-fluid img-responsive img"
                 />
                 <h6 className="mt-3">Description:</h6>
-                <p>-</p>
+                <p className="text-justify">-</p>
               </div>
             </div>
           </div>
