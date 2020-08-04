@@ -33,6 +33,7 @@ export default class Page extends Component {
                 href="https://lazadi.000webhostapp.com/"
                 target="_blank"
                 className="btn btn-outline-primary btn-sm"
+                rel="noopener noreferrer"
               >
                 Headed to Lazadi
               </a>
