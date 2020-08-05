@@ -30,8 +30,8 @@ function ThemeOptions() {
 
   return (
     <div className={`App ${colorTheme}`}>
-      <div className="theme-options">
-        <Fade top delay={500}>
+      <Fade top delay={300 * 2}>
+        <div className="theme-options">
           <h6>Choose your favorite color:</h6>
           <div
             id="theme-white"
@@ -63,9 +63,9 @@ function ThemeOptions() {
             onClick={() => handleClick("theme-black")}
             className={`${colorTheme === "theme-black" ? "active" : ""}`}
           />
-        </Fade>
-      </div>
-      <Fade top delay={600}>
+        </div>
+      </Fade>
+      <Fade top delay={300 * 3}>
         <h3 className="text-center">Wall Magazine</h3>
         <h5 className="text-center">These are some of my projects</h5>
       </Fade>

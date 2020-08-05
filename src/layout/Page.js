@@ -9,9 +9,9 @@ import onprogress from "./img/onprogress.jpg";
 export default class Page extends Component {
   render() {
     return (
-      <Fade bottom delay={800}>
-        <div className="container">
-          <div className="row">
+      <div className="container">
+        <div className="row">
+          <Fade top delay={300 * 4}>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
               <div className="content-box card">
                 <h3>Lazadi</h3>
@@ -45,6 +45,8 @@ export default class Page extends Component {
                 </div>
               </div>
             </div>
+          </Fade>
+          <Fade top delay={300 * 5}>
             <div className="col-12 col-sm-12 col-md-6 col-lg-6">
               <div className="content-box card">
                 <h3>On Progress</h3>
@@ -59,9 +61,9 @@ export default class Page extends Component {
                 <p className="text-justify">-</p>
               </div>
             </div>
-          </div>
+          </Fade>
         </div>
-      </Fade>
+      </div>
     );
   }
 }
